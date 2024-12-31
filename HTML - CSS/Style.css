@@ -1,13 +1,43 @@
 body{
+    margin: 0%;
     background-color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
 }
+
 button{
     background-color: rgb(242, 133, 85);
     color: rgb(255, 255, 255);
 }
+
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+}
+.logo{
+    width: 130px;
+}
+nav{
+    display: inline-block;
+    padding: 10px;
+}
+.mainimg{
+   
+    
+    margin-left: 400px;
+    
+    padding: 60px;
+}
+
 .topbar{
     background-color: rgb(253, 240, 234);
    
+}
+footer{
+    background-color: rgb(253, 240, 234);
+}
+footer p{
+    margin-left: 150px;
 }
 .topbar a{
     color: rgb(0, 0, 0);
