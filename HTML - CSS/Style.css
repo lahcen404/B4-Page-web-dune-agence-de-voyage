@@ -16,13 +16,15 @@ nav ul li{
 }
 .logo{
     width: 130px;
+    
 }
+
 nav{
     display: inline-block;
     padding: 10px;
 }
 .mainimg{
-   
+   display: flex;
     
     margin-left: 400px;
     
@@ -31,7 +33,7 @@ nav{
 
 .topbar{
     background-color: rgb(253, 240, 234);
-   
+    
 }
 footer{
     background-color: rgb(253, 240, 234);
