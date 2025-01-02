@@ -31,13 +31,22 @@ nav ul li{
     display: inline-block;
     margin: 20px;
     padding: 5px;
+    position: relative;
+    bottom: 30px;
+    left: 200px;
 }
 .logo{
     width: 120px;
     position: relative;
-    top: 5px;
+    top: 28px;
+    left: 100px;
 }
-
+.login{
+    position: relative;
+    bottom: 30px;
+    left: 720px;
+    bottom: 93px;
+}
 nav{
     display: inline-block;
     padding: 10px;
