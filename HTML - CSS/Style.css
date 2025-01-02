@@ -2,11 +2,28 @@ body{
     margin: 0%;
     background-color: rgb(255, 255, 255);
     font-family: 'Inter', sans-serif;
+   
+}
+
+.main{
+    font-size: larger;
+    position: relative;
+    left: 200px;
+    top:50px;
 }
 
 button{
+    padding: 9px;
     background-color: rgb(242, 133, 85);
     color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+}
+.secondpart{
+   
+    position: relative;
+    bottom: 260px;
+    left: 200px;
 }
 
 nav ul li{
@@ -15,8 +32,10 @@ nav ul li{
     padding: 5px;
 }
 .logo{
-    width: 130px;
-    
+    width: 120px;
+    margin: 10px;
+    position: relative;
+    top: 13px;
 }
 
 nav{
@@ -24,19 +43,30 @@ nav{
     padding: 10px;
 }
 .mainimg{
-   display: flex;
-    
+    width : 40%;
+    display: flex;
     margin-left: 400px;
+    padding: 20px;
+    position: relative;
+    bottom: 320px;
+}
+.mainh1{
+    font-size: 40px;
+   
+}
+.mainp{
+    font-size: 12px;
     
-    padding: 60px;
 }
 
 .topbar{
     background-color: rgb(253, 240, 234);
-    
+    font-size: small;
 }
 footer{
     background-color: rgb(253, 240, 234);
+    position: relative;
+    right: 200px;
 }
 footer p{
     margin-left: 150px;
